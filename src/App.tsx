@@ -97,12 +97,14 @@ const App: React.FC = () => {
       </main>
 
       <footer className="techblog__footer">
-        <h4 className="techblog__footer-title">Entre em contato</h4>
-        <div className="techblog__inputs">
-          <input className="techblog__input" type="text" placeholder='Nome' />
-          <input className="techblog__input" type="text" placeholder='Email' />
-          <textarea className="techblog__textarea" name="" id="" placeholder='Assunto da mensagem'></textarea>
-          <button className="techblog__footer-button">Entrar em contato</button>
+        <div className="techblog__footerContent">
+          <h4 className="techblog__footer-title">Entre em contato</h4>
+          <div className="techblog__inputs">
+            <input className="techblog__input" type="text" placeholder='Nome' />
+            <input className="techblog__input" type="text" placeholder='Email' />
+            <textarea className="techblog__textarea" name="" id="" placeholder='Assunto da mensagem'></textarea>
+            <button className="techblog__footer-button">Entrar em contato</button>
+          </div>
         </div>
       </footer>
     </div>
