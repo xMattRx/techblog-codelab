@@ -26,32 +26,32 @@ const ArticleCard: React.FC<ArticleCardProps> = ({ image, title, description }) 
 const App: React.FC = () => {
   const articles: Article[] = [
     {
-      image: "/src/assets/image2.png",
+      image: "/image2.png",
       title: "O que é linguagem de programação? Conheça as principais",
       description: "Uma das mais populares vertentes da tecnologia da informação, a área de...",
     },
     {
-      image: "/src/assets/image3.png",
+      image: "/image3.png",
       title: "Python: por que a linguagem é tão usada para Data Science e finanças?",
       description: "O mundo da programação conta com algumas opções de linguagem para...",
     },
     {
-      image: "/src/assets/image4.png",
+      image: "/image4.png",
       title: "GitHub tem receita de US$ 1 bilhão e 90 milhões de usuários",
       description: "O popular serviço de repositório de código GitHub foi adquirido pela...",
     },
     {
-      image: "/src/assets/image5.png",
+      image: "/image5.png",
       title: "15 comandos no GIT que os desenvolvedores precisam saber",
       description: "Dominar os comandos GIT é uma habilidade que se conquista com...",
     },
     {
-      image: "/src/assets/image6.png",
+      image: "/image6.png",
       title: "GIT e GitHub: o que são e quais as diferenças entre eles?",
       description: "Git e GibHub são dois softwares de controle de versão essenciais para...",
     },
     {
-      image: "/src/assets/image7.png",
+      image: "/image7.png",
       title: "GitHub Copilot ganha integração com GPT-4 e interface conversacional",
       description: "O GitHub Copilot, ferramenta de desenvolvimento baseada em IA...",
     },
@@ -73,7 +73,7 @@ const App: React.FC = () => {
           <div className="techblog__image-container">
             <img
               className="techblog__image"
-              src="/src/assets/image.png"
+              src="/image.png"
               alt="Ilustração de uma pessoa programando"
             />
           </div>
